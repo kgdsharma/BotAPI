@@ -1,0 +1,10 @@
+---
+applications:
+- name: bot-api
+  command: node chatapp.js
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  memory: 128M
+  instances: 1
+  host: chatbot-api
+
+  process.env.PORT: 5000

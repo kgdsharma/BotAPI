@@ -1,0 +1,19 @@
+{
+  "name": "bot-api",
+  "version": "1.0.0",
+  "description": "bot APIs",
+  "main": "chatapp.js",
+  "scripts": {
+    "start": "node chatapp.js"
+  },
+  "author": "krishna sharma",
+  "license": "ISC",
+  "engines": {
+    "node":"^6.11.0"        
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "rivescript": "^1.17.2"
+  }
+}
