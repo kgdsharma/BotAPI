@@ -5,6 +5,7 @@ const bodyParser = require('body-parser');
 //creating app and server
 const app = Express();
 app.listen(8080);
+app.use(Express.static('public'));
 
 // Creating bot
 
