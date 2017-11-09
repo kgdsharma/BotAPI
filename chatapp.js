@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 //creating app and server
 const app = Express();
 app.listen(8080);
-app.use(Express.static('public'));
+
 
 // Creating bot
 
@@ -16,8 +16,10 @@ bot.loadFile('./brain.rive', function(){
     console.log(error);
   })
 
+// node+ express middleware
 app.use(bodyParser.urlencoded({extended: true }));
 app.use(bodyParser.json());
+app.use(Express.static('public'));
 // create json parser
 var jsonParser = bodyParser.json();
 
