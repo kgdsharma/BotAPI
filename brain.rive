@@ -1,23 +1,28 @@
 + hello bot
 - hello Agent
 
++ *
+- Welcome <star1>, How can I help you?
+- Hello <star1>, What can I help you with?
+- Hi <star1>, I am ready to help you. Please ask your question.
+
 + ask me
-- how can i help you
+- Hi, I am your system bot. Please type your name and get going !!.
 
 + what is the * rates
 - The current <star1> rate is 1.49%
 
 + how to update ssn
-- in order to update ssn please navigate to high security update
+- Navigate to HSU. Enter the new SSN and Submit the form.
 
 + what is the * opening amount
-- the <star1> opening amount is $2500
+- The <star1> opening amount is $2500
 
 + when could a custodian be removed from account
-- minor needs to be 18 years
+- Minor age must be 18 years or older.
 
 + how to update date of birth
-- 1. Click on Customer Actions, 2. Click on the High security Update
+- Navigate to HSU. Enter the new DOB and Submit the form.
 
 + what is the apr for * *
-- the apr for <star1><star2> is 0.95%
+- The APR for <star1><star2> is 0.95%
